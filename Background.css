@@ -1,0 +1,21 @@
+
+
+/* SOFT BACKGROUND GRADIENT */
+
+
+
+/* GLASS OVERLAY (VERY LIGHT) */
+
+
+/* BLUR CIRCLES LIKE LOVABLE */
+
+
+.hero-image img {
+  width: 350px;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 20px;     /* rounded like lovable */
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+  margin-left: 650px;
+  margin-top: 50px;
+}
