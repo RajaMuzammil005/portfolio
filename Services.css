@@ -1,0 +1,58 @@
+.services-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #007bff; /* blue */
+  margin-bottom: 1.5rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #fff;
+  border: 1.5px solid #007bff;
+  border-radius: 12px;
+  padding: 1.5rem 1.2rem;
+  box-shadow: 0 3px 10px rgba(0, 123, 255, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 123, 255, 0.3);
+}
+
+.service-icon {
+  font-size: 2rem;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0c1b3a;
+}
+
+.service-description {
+  font-size: 0.9rem;
+  color: #6c7a93;
+  line-height: 1.4;
+}
