@@ -1,0 +1,30 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.about-text {
+  flex: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+/* ⭐ EXACT LOVABLE IMAGE STYLE */
+.my-image img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;     /* rounded like lovable */
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+}
